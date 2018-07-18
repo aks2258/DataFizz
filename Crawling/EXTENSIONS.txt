@@ -1,0 +1,9 @@
+This Amazon web scraper can be modified to work with other sites by:
+
+1 - Replacing the url on line 10 with any other retail website. However, the selectors for the ID’s and tags will have to manually be replaced by the appropriate ID’s and tags that hold the target information.
+
+2 - Adding more lines of code for Puppeteer to navigate to different pages/categories of a website.
+
+	a.) Lines 11 through 14 contain the process of selecting a 		category from a dropdown menu.
+
+	b.) Line 16 contains the code where the product to search for 		can be 	changed. Through some modifications of the code, the program 	can request from the user what to search for which can be held in a 	variable and used in the search.
